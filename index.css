@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+
+    margin: 10px 20px 20px 20px;
+    padding: 10px 10px 50px 20px;
+    
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;
+    text-align: center;
+
+}
+.bottom-section {
+    background-color: #1B244A;
+    margin: 0px 20px 20px 20px;
+    padding: 10px 10px 50px 20px;
+    text-align: right;
+}
+
+.score {
+    background-color: #080001;
+    width: 200;
+    height: 120;
+    top: 100px;
+    left: 82px;
+    border-radius: 5px;
+    margin: 0px;
+
+
+    /* font-family: Cursed Timer ULiL; */
+    font-family: "Cursed Timer ULiL";
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 126.67px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+#home-score-points {
+    margin: 0;
+    border: none;
+}
+#guest-score-points {
+    margin: 0;
+}
+
+.add-points {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    padding: 10px auto;
+    width: 155;
+    height: 45;
+    top: 271px;
+    left: 82px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 25;
+}
+
+.btn {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    padding: 0 10px 0 10px;
+    
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27.81px;
+    text-align: center;
+    color: #9AABD8;
+
+}
